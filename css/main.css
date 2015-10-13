@@ -1,1 +1,161 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size:16px;
+  font-weight: 300;
+  background-color: #E9EAEE;
+}
+
+h1 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+  padding-top: 3em;
+}
+
+h2 {
+  color: #BC6026;
+  padding:1em;
+}
+
+svg {
+  height: 1em;
+  fill: currentColor;
+}
+
+nav {
+  position: fixed;
+  background-color: #181C22;
+  color: #FFFFFF; 
+  padding-left: 15px;
+}
+
+li {
+  display: inline;  
+}
+
+a {
+  color:#FFFFFF;
+  font-variant: small-caps;
+  font-size: 16px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D87E28;
+}
+
+#motto {
+	display: none;
+}
+
+#headline {
+	font-style: italic;
+	text-align: center;
+}
+
+#headlineIcon {
+	display: none;
+}
+
+#information {
+  	text-align: center;
+  	background-color: #DBDCE3;
+}
+
+#map {
+	border-radius: 5px;
+}	
+
+#story {
+	background-color: #DBDCE3;
+}
+
+#lady {
+	left-margin: 1em;
+	border-radius: 5px;
+	float: right;
+	max-height: 300px;
+
+}
+
+#footer {
+	border-top: 3px solid #D87E28;
+	background-color:#AFB3C2;
+	font-size: 12px;
+	padding: 1em;
+	clear: both;
+
+}
+
+
+
+
+
+@media (min-width:768px) {
+  body {
+    font-size:20px;
+  }
+  nav {
+    background-color: rgba(24,28,34,0.8);
+  }
+  h1 {
+    background-image: url("http://students.washington.edu/ydingles/info343/dawg-coffee/img/background-sm.jpg");
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: right;
+    height: 550px;
+  }
+  h2 {
+    text-align: center;
+  }
+  a {
+    padding-left:1em;
+    padding-right:1em
+  }
+
+  #motto {
+  	display: block;
+  }
+
+  #headlineIcon {
+  	display: block;
+  	font-size:1.5em;
+  	text-align: center;
+  	height: 1.5em;
+  	padding-top:3em;
+  	padding-bottom:3em;
+  }
+
+  dd {
+  	font-style: italic;
+  	text-indent: 1em;
+  }
+
+  #lady {
+  	max-height:400px;
+  }
+
+  #attributes {
+ 	text-align: right;
+  }
+
+
+}
+
+@media (min-width:992px) {
+h1 {
+    background-image: url("http://students.washington.edu/ydingles/info343/dawg-coffee/img/background-md.jpg");
+    font-size:4em;
+    ;
+
+}
+
+@media (min-width:1200px) {
+h1 {
+    background-image: url("http://students.washington.edu/ydingles/info343/dawg-coffee/img/background-lg.jpg");
+    ;
+}
