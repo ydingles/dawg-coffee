@@ -6,16 +6,17 @@ This folder contains your submission for the [responsive challenge](http://facul
 http://students.washington.edu/ydingles/info343/dawg-coffee/
 
 ##### 2. Did you receive any help from others (classmates, etc)? If so, please list who. #####
-No, I didn't
+I received some help from Nick about the SVG icons and referencing classes/ids for CSS styling
 
 ##### 3. Did you complete any advanced extensions to this challenge? If so, what? #####
 No, I wasn't able too
 
 ##### 4. Approximately how many hours did it take you to complete this challenge? #####
-8 hours
+12 hours
 
 ##### 5. Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better? #####
-Bootstrap was giving me a lot of trouble. More in class practice would bootstrap would be helpful
+Bootstrap was giving me a lot of trouble. More in class practice would bootstrap would be helpful.
+Also, getting the padding done nicely was tedious.
 
 Thank you
 
